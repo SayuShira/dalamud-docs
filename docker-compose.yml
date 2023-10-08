@@ -4,7 +4,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - .:/app
+      - .:/app:cached
       - node-modules:/app/node_modules
 # workaround to not override / delete the node_modules directory in the container
 # while a node_modules directory is created on host, its empty and can be filled without spilling into the container
