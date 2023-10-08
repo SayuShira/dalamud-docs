@@ -1,11 +1,12 @@
 services:
   workspace:
-    pull_policy: "build"
-    build:
-      context: .
-    command: "pnpm exec docusaurus start --host 0.0.0.0"
+    build: .
     ports:
       - "3000:3000"
-    working_dir: "/app"
     volumes:
-      - ".:/app:cached"
+      - .:/app
+      - node-modules:/app/node_modules
+# workaround to not override / delete the node_modules directory in the container
+# while a node_modules directory is created on host, its empty and can be filled without spilling into the container
+volumes:
+  node-modules:
