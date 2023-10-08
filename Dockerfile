@@ -15,4 +15,4 @@ FROM base
 COPY --from=deps /app/node_modules /app/node_modules
 
 EXPOSE 3000
-ENTRYPOINT [ "pnpm", "start", "--host", "0.0.0.0"]
+ENTRYPOINT [ "pnpm", "start", "--host", "0.0.0.0", "--poll", "1000"]
