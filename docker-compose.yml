@@ -4,9 +4,14 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - .:/app:cached
-      - node-modules:/app/node_modules
-# workaround to not override / delete the node_modules directory in the container
-# while a node_modules directory is created on host, its empty and can be filled without spilling into the container
-volumes:
-  node-modules:
+      - ./docs:/app/docs
+      - ./news:/app/news
+      - ./api_versioned_docs:/app/api_versioned_docs
+      - ./api_versioned_sidebars:/app/api_versioned_sidebars
+      - ./src:/app/src
+      - ./static:/app/static
+      - ./custom.css:/app/custom.css
+      - ./package.json:/app/package.json
+      - ./api_versions.json:/app/api_versions.json
+      - ./default-sidebars.js:/app/default-sidebars.js
+      - ./docusaurus.config.js:/app/docusaurus.config.js
