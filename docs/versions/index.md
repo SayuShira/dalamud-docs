@@ -48,7 +48,7 @@ level.
 
 | API Level | First Dalamud Version | First Game Version | .NET Version | First Commit                                                                                      |
 | --------- | --------------------- | ------------------ | ------------ | ------------------------------------------------------------------------------------------------- |
-| 9         | 9.0.0.0[^1]           | Patch 6.5          | .NET 7.0     | [2023-05-28](https://github.com/goatcorp/Dalamud/commit/f1f2b51cd69212e2a695938ef9d53f6825b60604) |
+| 9         | 9.0.0.0 [^1]          | Patch 6.5          | .NET 7.0     | [2023-05-28](https://github.com/goatcorp/Dalamud/commit/f1f2b51cd69212e2a695938ef9d53f6825b60604) |
 | 8         | 7.4.0.0               | Patch 6.3          | .NET 7.0     | [2023-01-10](https://github.com/goatcorp/Dalamud/commit/251359abe92ed805f1163f1a9da28a0aa4f891cb) |
 | 7         | 7.0.0.0               | Patch 6.2          | .NET 6.0     | [2022-08-23](https://github.com/goatcorp/Dalamud/commit/6692d560296baab7758a372df10794cdf3717c17) |
 | 6         | 6.4.0.0               | Patch 6.1          | .NET 5.0     | [2022-04-13](https://github.com/goatcorp/Dalamud/commit/d9f3800257fe1fa5621b9c13028c06911555889c) |
@@ -56,7 +56,7 @@ level.
 | 4         | 6.0.0.17?             | Patch 5.57hf?      | .NET 5.0     | [2021-07-12](https://github.com/goatcorp/Dalamud/commit/0cb35619d2907d3cb65fce9be7dd08410fe31b7d) |
 | 3         | 5.2.3.5?              | Patch 5.45?        | .NET 4.7.2   | [2021-04-01](https://github.com/goatcorp/Dalamud/commit/9751a9fed2e948cb4f114da107a7b55416c287bf) |
 | 2         | 5.1.1.2?              | Patch 5.4?         | .NET 4.7.2   | [2020-12-08](https://github.com/goatcorp/Dalamud/commit/04b83f95336ec0ff006febf29b0af0afe2636a65) |
-| 1         | 4.9.8.2[^2]           | Patch 5.25?        | .NET 4.7.2   | [2020-06-11](https://github.com/goatcorp/Dalamud/commit/ad93b6324f921b11c7e7dbd4565023697512c0bf) |
+| 1         | 4.9.8.2 [^2]          | Patch 5.25?        | .NET 4.7.2   | [2020-06-11](https://github.com/goatcorp/Dalamud/commit/ad93b6324f921b11c7e7dbd4565023697512c0bf) |
 
 [^1]:
     This commit pinned the `DALAMUD_API_LEVEL` to the major version of Dalamud.
