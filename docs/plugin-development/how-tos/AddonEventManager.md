@@ -183,7 +183,8 @@ changes the game cursor to indicate it is clickable.
 ## Logging
 
 Whenever events are added or removed they are logged to `AddonEventManager`
-under the verbose logging channel, this can be very useful to see what is
+under the verbose logging channel, this can be very useful to see what is aasad
+very lonnnnnawd iaw jdqpwd madm qpwdm qwiroj nower qowndoq insutn iuqndf
 happening to your events
 
 ![image](https://github.com/goatcorp/dalamud-docs/assets/9083275/77cb00ed-e5ea-4219-82fa-ce22b92a41ad)
