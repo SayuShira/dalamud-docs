@@ -13,8 +13,8 @@ const config = {
     'Documentation for the Dalamud plugin framework for FINAL FANTASY XIV.',
   favicon: 'img/favicon.ico',
 
-  url: 'https://dalamud.dev',
-  baseUrl: '/',
+  url: 'https://sayushira.github.io',
+  baseUrl: '/dalamud-docs/',
 
   // Info for GitHub Pages deployment
   organizationName: 'goatcorp',
