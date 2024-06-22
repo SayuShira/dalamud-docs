@@ -30,7 +30,7 @@ docker compose up
 ## Build
 
 ```shell
-pnpm build
+pnpm build --dev
 ```
 
 This command generates static content into the `build` directory and can be
