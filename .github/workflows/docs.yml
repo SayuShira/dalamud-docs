@@ -21,7 +21,7 @@ env:
 
 jobs:
   deploy:
-    runs-on: docs
+    runs-on: windows-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
