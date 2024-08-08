@@ -13,7 +13,7 @@ export default {
     'Documentation for the Dalamud plugin framework for FINAL FANTASY XIV.',
   favicon: 'img/favicon.ico',
 
-  url: 'https://dalamud.dev',
+  url: 'https://sayushira.github.io',
   baseUrl: '/',
 
   // Info for GitHub Pages deployment
