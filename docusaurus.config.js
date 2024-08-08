@@ -14,7 +14,7 @@ export default {
   favicon: 'img/favicon.ico',
 
   url: 'https://sayushira.github.io',
-  baseUrl: '/',
+  baseUrl: '/dalamud-docs/',
 
   // Info for GitHub Pages deployment
   organizationName: 'goatcorp',
